@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+body{
+    width: auto;
+    height: auto;
+    display:flex;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+#gora{
+    display: inline-flex;
+}
+
+#box1{
+    border-width: 1px;
+    border-style:hidden;
+    border-color: lightgray;
+    width: 300px;
+    height: 230px;
+    font-size: 30px;
+    margin-top: 0%;
+    box-shadow: 1px 1px 15px lightgray;
+
+
+}
+
+#green1{
+    display: flex;
+    margin-top: -20px;
+    margin-left: 100px;
+    font-size: 22px;
+}
+#cl1{
+    display: inline-flex;
+    border: 20px solid rgb(4, 234, 4);
+    width: 40px;
+    height: 40px;
+    border-radius: 90%;
+    box-sizing: border-box;
+    margin-top: 6%;
+    margin-bottom: 9%;
+    margin-left: 10%;
+}
+#idgreen1{
+    font-size: 17px;
+    color: rgb(163, 161, 161);
+    margin-left: -66px;
+    margin-top: 3px;
+}
+/*
+//////////
+GREEN2
+//////////
+*/
+
+#green2{
+    display: flex;
+    margin-top: -20px;
+    margin-left: 100px;
+    font-size: 22px;
+}
+#cl2{
+    display: inline-flex;
+    border: 20px solid rgb(1, 213, 1);
+    width: 40px;
+    height: 40px;
+    border-radius: 90%;
+    box-sizing: border-box;
+    margin-bottom: 9%;
+    margin-left: 10%;
+}
+#idgreen2{
+    font-size: 17px;
+    color: rgb(163, 161, 161);
+    margin-left: -66px;
+    margin-top: 1px;
+
+}
+
+/*
+//////////
+GREEN3
+//////////
+*/
+#green3{
+    display: flex;
+    margin-top: -20px;
+    margin-left: 100px; 
+    font-size: 22px;
+}
+#cl3{
+    display: inline-flex;
+    border: 20px solid rgb(0, 195, 0);
+    width: 40px;
+    height: 40px;
+    border-radius: 90%;
+    box-sizing: border-box;
+    margin-left: 10%;
+}
+#idgreen3{
+    font-size: 17px;
+    color: rgb(163, 161, 161);
+    margin-left: -65px;
+    margin-top: 1px;
+}
+/*#Green{
+    position: relative;
+    margin-right: 0%;
+    display: flex;
+    border-radius: 90%;
+    border-width: 4px;
+    border-style: solid;
+    border-color: green;
+    width: 20px;
+    height: 20px;
+} 
+#cl2{
+    margin-bottom: 9%;
+}
+#cl3{
+    color: black;
+}*/
+
+/*
+/////////////////////
+CALENDAR
+////////////////////
+
+
+*/
+
+#calendar{
+    
+    margin-left: 100px;
+    border-width: 1px;
+    margin-top: 0px;
+    border-style:hidden;
+    border-color: lightgray;
+    width: 600px;
+    height: 210px;
+    font-size: 30px;
+    box-shadow: 1px 1px 15px lightgray;
+}
+
+.godzina{
+    border: 5px dotted green;
+    display: flexbox;
+    padding-top: 20px;
+    color:black;
+    line-height: 80px;
+    text-align: center;
+}

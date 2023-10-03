@@ -132,7 +132,7 @@ CALENDAR
 
 #calendar{
     
-    margin-left: 100px;
+    margin-left: 150px;
     border-width: 1px;
     margin-top: 0px;
     border-style:hidden;
@@ -151,3 +151,69 @@ CALENDAR
     line-height: 80px;
     text-align: center;
 }
+#buttons{
+    
+    margin-left: 90px;
+    border-width: 1px;
+    margin-top: 0px;
+    border-style:hidden;
+    border-color: lightgray;
+    width: 400px;
+    height: 230px;
+    font-size: 30px;
+    box-shadow: 1px 1px 15px lightgray;
+    text-decoration: none;
+    
+}
+#bu1{
+    display: inline-flex;
+    
+}
+#bu2{
+    display: inline-flex;
+    
+}
+
+#b1{
+    text-align: center;
+    margin-top: 0%; 
+    border-right:5px lightgray solid;
+    border-bottom:5px lightgray solid;
+    display: inline-block   ;
+    height: 110px;
+    width: 200px;
+
+}
+#b1 text{
+    color:wheat;
+}
+
+#b2{
+    text-align: center;
+    margin-top: 0%;
+    display: inline-block   ;
+    border-bottom:5px lightgray solid;
+    height: 110px;
+    width: 196px;
+}
+#b3{
+    text-align: center;
+    display: inline-block   ;
+    height: 116px;
+    width: 200px;
+    border-right:5px lightgray solid;
+
+}
+#b3 p{
+    margin-top: 20%;
+}
+#b4{
+    text-align: center;
+    display: inline-block   ;
+    height: 120px;
+    width: 200px;
+}
+#b4 p{
+    margin-top: 20%;
+}
+

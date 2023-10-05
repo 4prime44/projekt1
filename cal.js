@@ -12,14 +12,16 @@ var dzienTygodnia = dniTygodnia[dzisiejszaData.getDay()];
 var godzina = "godzina";
 date2.classList.add(godzina);
 
-
-
-
-function setTime(){
-
-    var time = new Date();
-    date1.innerHTML = "Dziś mamy " + dzienTygodnia + " "+ time.getDay () + time.getDate() + "." + time.getMonth()+"." + time.getFullYear() + "<br>";
-    date2.innerHTML += "Godzina: " + time.getHours()+":" + time.getMinutes()+":"+time.getSeconds()+ "<br>";
+function addLeadingZero(number) {  // funkcja dzk ktr dodaje 0 przed data
+    return number < 10 ? "0" + number : number.toString();
 }
+
+function setTime() {
+    var time = new Date();
+    var formattedDate = dzienTygodnia + " " + addLeadingZero(time.getDate()) + "." + addLeadingZero(time.getMonth() + 1) + "." +addLeadingZero( time.getFullYear());
+    var formattedTime = "Godzina: " + addLeadingZero(time.getHours()) + ":" + addLeadingZero(time.getMinutes()) + ":" + addLeadingZero(time.getSeconds());
+    date1.innerHTML = formattedDate + "<br>" + formattedTime;
+}
+setTime();
 setInterval(setTime, 1000);
 

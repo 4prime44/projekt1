@@ -6,6 +6,7 @@ body{
     margin-left: 3%;
     margin-top: 3%;
     font-family:Arial, Helvetica, sans-serif;
+    overflow:scroll;
 
 }
 #gora{
@@ -166,54 +167,96 @@ CALENDAR
     
 }
 #bu1{
-    display: inline-flex;
+    display: flex;
     
 }
 #bu2{
-    display: inline-flex;
+    display:flex;
     
 }
 
 #b1{
     text-align: center;
-    margin-top: 0%; 
+    margin-top: 0%;
+    line-height: 49px; 
     border-right:5px lightgray solid;
-    border-bottom:5px lightgray solid;
-    display: inline-block   ;
+    border-bottom:5px  lightgray solid;
+    display: flexbox   ;
     height: 110px;
-    width: 200px;
+    width: 195px;
+    border-radius: 0%;
+    padding-top: 0px;
+
 
 }
 #b1 text{
     color:wheat;
 }
+#b1:hover{
+    
+    line-height: 40px; 
+    margin:0%;
+    height: 110px;
+    width: 195px;
+    box-shadow: inset 0px 0px 15px  rgb(229, 229, 229);
+    font-size:35px;
+}
 
 #b2{
-    text-align: center;
+    line-height: 49px; 
     margin-top: 0%;
-    display: inline-block   ;
+    display: flexbox  ;
+    text-align: center;
     border-bottom:5px lightgray solid;
-    height: 110px;
-    width: 196px;
+    height: 110.2px;
+    width: 200px;
+
+}
+#b2:hover{
+    line-height: 40px; 
+    margin:0%;
+    height: 110.2px;
+    width: 200px;
+    box-shadow: inset 0px 0px 15px  rgb(229, 229, 229);
+    font-size:35px;
 }
 #b3{
+    margin-top: 0%;
     text-align: center;
-    display: inline-block   ;
-    height: 116px;
-    width: 200px;
-    border-right:5px lightgray solid;
+    display: flexbox ;
+    height: 115px;
+    width: 195px;
+    line-height: 30px; 
 
 }
 #b3 p{
     margin-top: 20%;
 }
+#b3:hover{
+    line-height: 26px; 
+    height: 115px;
+    width: 195px;
+    box-shadow: inset 0px 0px 15px  rgb(229, 229, 229);
+    font-size:35px;
+}
 #b4{
     text-align: center;
-    display: inline-block   ;
-    height: 120px;
+    display: flexbox  ;
+    border-left:5px lightgray solid;
+    height: 115px;
     width: 200px;
+    border-right: 1px white;
+    line-height: 30px; 
 }
 #b4 p{
     margin-top: 20%;
 }
 
+#b4:hover{
+    line-height: 26px; 
+    margin:0%;
+    height: 115px;
+    width: 200px;
+    box-shadow: inset 0px 0px 15px  rgb(229, 229, 229);
+    font-size:35px;
+}

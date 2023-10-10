@@ -159,17 +159,16 @@ CALENDAR
     border-width: 1px;
     margin-top: 0px;
     border-style:hidden;
-    border-color: lightgray;
+
     width: 400px;
     height: 230px;
     font-size: 30px;
-    box-shadow: 1px 1px 15px lightgray;
+
     text-decoration: none;
     
 }
 #bu1{
     display: flex;
-    
 }
 #bu2{
     display:flex;
@@ -180,8 +179,9 @@ CALENDAR
     text-align: center;
     margin-top: 0%;
     line-height: 49px; 
-    border-right:5px lightgray solid;
-    border-bottom:5px  lightgray solid;
+    border-right:5px white;
+    border-bottom:5px  white;
+    box-shadow: 1px 1px 15px lightgray;
     display: flexbox   ;
     height: 110px;
     width: 195px;
@@ -190,9 +190,7 @@ CALENDAR
 
 
 }
-#b1 text{
-    color:wheat;
-}
+
 #b1:hover{
     
     line-height: 40px; 
@@ -208,10 +206,10 @@ CALENDAR
     margin-top: 0%;
     display: flexbox  ;
     text-align: center;
-    border-bottom:5px lightgray solid;
+
     height: 110.2px;
     width: 200px;
-
+    box-shadow: 1px 1px 15px lightgray;
 }
 #b2:hover{
     line-height: 40px; 
@@ -222,44 +220,45 @@ CALENDAR
     font-size:35px;
 }
 #b3{
-    margin-top: 0%;
+    margin-top:0%;
     text-align: center;
     display: flexbox ;
     height: 115px;
     width: 195px;
-    line-height: 30px; 
+    line-height: 50px; 
+    box-shadow: 1px 1px 15px lightgray;
 
 }
 #b3 p{
-    margin-top: 20%;
+    margin-top: 50%;
 }
 #b3:hover{
-    line-height: 26px; 
+    line-height: 40px; 
     height: 115px;
     width: 195px;
     box-shadow: inset 0px 0px 15px  rgb(229, 229, 229);
-    font-size:35px;
+    font-size:32px;
 }
 #b4{
     text-align: center;
     display: flexbox  ;
-    border-left:5px lightgray solid;
+    box-shadow: 1px 1px 15px lightgray;
     height: 115px;
     width: 200px;
     border-right: 1px white;
-    line-height: 30px; 
+    line-height: 60px; 
 }
 #b4 p{
     margin-top: 20%;
 }
 
 #b4:hover{
-    line-height: 26px; 
+    line-height: 50px; 
     margin:0%;
     height: 115px;
     width: 200px;
     box-shadow: inset 0px 0px 15px  rgb(229, 229, 229);
-    font-size:35px;
+    font-size:32px;
 }
 
 
